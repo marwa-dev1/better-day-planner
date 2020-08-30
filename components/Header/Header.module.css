@@ -1,0 +1,60 @@
+.main{
+    position: absolute;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    display: -webkit-box;
+display: -webkit-flex;
+display: -ms-flexbox;
+display: flex;
+    justify-content: space-between;
+    padding: 9px 40px 9px 30px;
+    background-color:#404040;
+    color: white;
+    height: 56px;
+    /* align-items: center; */
+}
+
+.title{
+    align-self: center;
+}
+
+.rightSide{
+    display: -webkit-box;
+display: -webkit-flex;
+display: -ms-flexbox;
+display: flex;
+    align-items: center;
+}
+
+.totalKudos{
+    display: -webkit-box;
+display: -webkit-flex;
+display: -ms-flexbox;
+display: flex;
+    align-items: center;
+}
+
+.verticalDivider{
+    height: 100%;
+    border-right: 1px solid white;
+    margin: 0 20px;
+    align-self: center;
+}
+
+.logout{
+    cursor: pointer;
+}
+
+.updateIcon{
+    margin-left:6px;
+    cursor: pointer;
+}
+
+.updateIcon:hover{
+    transform: scale(1.08);
+}
+
+.updateIcon:focus{
+    outline: none;
+}

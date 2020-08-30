@@ -1,0 +1,190 @@
+
+.body {
+    background-color: #F3EBF6;
+    height: 97vh !important;
+    width: 100vw !important;
+    overflow: hidden !important;
+    flex-direction: column;
+    display: -webkit-box;
+display: -webkit-flex;
+display: -ms-flexbox;
+display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.body > div{
+    display: -webkit-box;
+display: -webkit-flex;
+display: -ms-flexbox;
+display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.main {
+    background-color: #FFFFFF;
+    width: 400px;
+    height: auto;
+    /* padding: 2vh 0; */
+    margin: 7em auto;
+    border-radius: 1.5em;
+    box-shadow: 0px 11px 35px 2px rgba(0, 0, 0, 0.14);
+}
+
+.main div{
+    padding: 2vh 0 8vh 0;
+}
+
+.optionContainer{
+    position: relative;
+    display: -webkit-box;
+display: -webkit-flex;
+display: -ms-flexbox;
+display: flex;
+    justify-content: space-evenly;
+    margin-bottom: -80px;
+}
+
+.optionContainer div{
+    cursor: pointer;
+    padding: 8px 15px;
+    border-bottom: 1px solid white;
+    color: grey;
+    /* border-radius: 20px; */
+}
+
+.optionContainer div:hover{
+    /* background-color: #e7e7e7; */
+    border-bottom: 1px solid blue;
+    transition: ease .5s;
+}
+
+
+.title{
+    text-align: center;
+    font-size: 1.4rem;
+    margin-bottom: -16px;
+}
+
+.sign {
+    padding-top: 40px;
+    color: #8C55AA;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.un {
+    width: 76%;
+    color: rgb(38, 50, 56);
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 1px;
+    background: rgba(136, 126, 126, 0.04);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    box-sizing: border-box;
+    border: 2px solid rgba(0, 0, 0, 0.02);
+    margin-bottom: 50px;
+    margin-left: 46px;
+    text-align: center;
+    margin-bottom: 27px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.form1 {
+    padding-top: 40px;
+}
+
+.pass {
+        width: 76%;
+color: rgb(38, 50, 56);
+font-weight: 700;
+font-size: 14px;
+letter-spacing: 1px;
+background: rgba(136, 126, 126, 0.04);
+padding: 10px 20px;
+border: none;
+border-radius: 20px;
+outline: none;
+box-sizing: border-box;
+border: 2px solid rgba(0, 0, 0, 0.02);
+margin-bottom: 50px;
+margin-left: 46px;
+text-align: center;
+margin-bottom: 27px;
+}
+
+
+.un:focus, .pass:focus {
+    border: 2px solid rgba(0, 0, 0, 0.18) !important;
+    
+}
+
+.submit {
+    cursor: pointer;
+    border-radius: 5em;
+    color: #fff;
+    background: linear-gradient(to right, #404040, #636262);
+    border: 0;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-left: 35%;
+    font-size: 13px;
+    box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
+}
+
+.forgot {
+    text-shadow: 0px 0px 3px rgba(117, 117, 117, 0.12);
+    color: #E1BEE7;
+    padding-top: 15px;
+}
+
+.form a {
+    text-shadow: 0px 0px 3px rgba(117, 117, 117, 0.12);
+    color: #E1BEE7;
+    text-decoration: none
+}
+
+.emailErr{
+    text-align: center;
+    color: red;
+    opacity: 0.6;
+    font-style: italic;
+    margin: -10px 0 10px 0;
+}
+
+.pass2err{
+    margin: -10px 0 30px 0;
+    text-align: center;
+    color: red;
+    opacity: 0.6;
+    font-style: italic;
+}
+
+.redBorder{
+    border-color: red !important;
+}
+
+.gateLoaderContainer{
+    width: 100%;
+    height: 100%;
+    display: -webkit-box;
+display: -webkit-flex;
+display: -ms-flexbox;
+display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 600px) {
+    .main {
+        border-radius: 0px;
+    }
+}
+    

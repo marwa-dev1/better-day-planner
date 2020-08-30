@@ -1,0 +1,46 @@
+.main{
+    display: -webkit-box;
+display: -webkit-flex;
+display: -ms-flexbox;
+display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    height: 152px;
+}
+
+.inner{
+    display: -webkit-box;
+display: -webkit-flex;
+display: -ms-flexbox;
+display: flex;
+}
+
+.inner > div{
+    display: -webkit-box;
+display: -webkit-flex;
+display: -ms-flexbox;
+display: flex;
+    flex-direction: column;
+}
+
+.text{
+    text-align: left;
+    justify-content: flex-start;
+    align-self: flex-end;
+}
+
+.text p:first-child{
+    margin: 0 0 -10px 0;
+}
+
+.text p:last-child{
+    color: grey;
+    font-style: italic;
+}
+
+.icon img{
+    height: 80px;
+    width: 80px;
+    margin-right: 8px;
+}

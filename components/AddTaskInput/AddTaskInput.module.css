@@ -1,0 +1,139 @@
+.main{
+    padding: 5px;
+    background-color: #dfdddd;
+    border-radius: 8px;
+    margin: 20px 0;
+}
+.innerMain { 
+    display: -webkit-box;
+display: -webkit-flex;
+display: -ms-flexbox;
+display: flex;
+    flex-direction: column;
+    padding: 5px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+
+.innerMain h4{
+    padding: 6px;
+    margin: -5px -5px 10px -5px;
+    background-color: #dfdddd;
+}
+
+.titleContainer{
+    display: -webkit-box;
+display: -webkit-flex;
+display: -ms-flexbox;
+display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px;
+    margin: -5px -5px 10px -5px;
+    height: 50px;
+    background-color: #dfdddd;
+}
+
+.titleContainer button{
+    padding: 2px !important;
+    height: 30px;
+}
+
+.arrowIcon{
+    cursor: pointer;
+    border: 1px solid #949494;
+    border-radius: 8px;
+    color: #404040;
+    padding: 2px;
+    background-color: white;
+}
+
+
+.inputsBtnsContainer{
+    display: -webkit-box;
+display: -webkit-flex;
+display: -ms-flexbox;
+display: flex;
+}
+
+.inputContainer{
+    display: -webkit-box;
+display: -webkit-flex;
+display: -ms-flexbox;
+display: flex;
+    flex-direction: column;
+}
+
+.inputContainer p{
+    font-size: 13px;
+}
+
+.input{
+    border-radius: 4px;
+    background-color: rgb(235, 235, 235);
+    padding: 3px 4px;
+    border: 2px solid rgb(211, 211, 211);
+    font-size: 13px;
+    transition: all 0.3s ease 0s;
+    cursor: text;
+    resize: none;
+}
+
+.input:hover{
+    background-color: white;
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    transition: all 0.3s ease 0s;
+}
+
+
+
+.btnsContainer{
+    margin: 15px 0 10px 0;
+    display: -webkit-box;
+display: -webkit-flex;
+display: -ms-flexbox;
+display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.btnsContainer button:first-child{
+    flex-basis: 29%;
+    margin-right: 2%;
+}
+
+.btnsContainer button:last-child{
+    flex-basis: 29%;
+    margin-left: 2%;
+}
+
+
+.button {
+    border: none;
+    background: #404040;
+    color: #ffffff !important;
+    font-weight: 700;
+    padding: 8px;
+    text-transform: uppercase;
+    font-size: 11px;
+    border-radius: 6px;
+    display: inline-block;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+}
+.button:hover {
+    color: #404040 !important;
+    font-weight: 700 !important;
+    /* letter-spacing: 3px; */
+    background: none;
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    transition: all 0.3s ease 0s;
+}
+.button:active {
+	position:relative;
+	top:1px;
+}

@@ -1,0 +1,17 @@
+.mainContainer{
+    width: 100vw;
+    margin-top: 68px;
+}
+
+.mainTitle{
+    text-align: center;
+    margin-bottom: 1vh;
+}
+
+.mainGrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 2.9fr;
+    gap: 1px 1px;
+    grid-template-areas: ". . . .";
+}

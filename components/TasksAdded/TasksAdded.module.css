@@ -1,0 +1,128 @@
+
+.saveButtonFixed{
+    position: absolute;
+    top: 1.8vh;
+    left: 75vw;
+    height: 80px;
+    display: -webkit-box;
+display: -webkit-flex;
+display: -ms-flexbox;
+display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 9px 0  0; */
+    width: 100px;
+    height: 30px; /* as the half of the width */
+    background-color: white;
+    color: #404040;
+    cursor: pointer;
+    border-radius: 20px;
+    border-bottom: 0;
+}
+
+.saveButtonFixed:hover{
+    transform: scale(1.08);
+}
+
+.taskListContainer{
+    padding: 5px;
+    background-color: #dfdddd;
+    border-radius: 8px;
+    margin: 0 10px;
+}
+
+.inner{
+    display: -webkit-box;
+display: -webkit-flex;
+display: -ms-flexbox;
+display: flex;
+    flex-direction: column;
+    padding: 5px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.titleContainer{
+    display: -webkit-box;
+display: -webkit-flex;
+display: -ms-flexbox;
+display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px;
+    margin: -5px -5px 10px -5px;
+    height: 50px;
+    background-color: #dfdddd;
+}
+
+.titleContainer button{
+    padding: 2px !important;
+    height: 30px;
+}
+
+.arrowIcon{
+    cursor: pointer;
+    border: 1px solid #949494;
+    border-radius: 8px;
+    color: #404040;
+    padding: 2px;
+    background-color: white;
+}
+
+.taskContainer, .greyIt{
+    display: -webkit-box;
+display: -webkit-flex;
+display: -ms-flexbox;
+display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.taskTextContent{
+    flex-basis: 65%;
+    margin: 0 auto;
+}
+
+.taskTextContent h4{
+    margin: 0 0 -25px 0;
+}
+
+.taskTextContent p{
+    color: grey;
+    font-style: italic;
+    /* font-size: 14px; */
+}
+
+.taskOptions{
+    flex-basis: 30%;
+    justify-self: flex-end !important;
+    display: -webkit-box;
+display: -webkit-flex;
+display: -ms-flexbox;
+display: flex;
+    justify-content: flex-end;
+}
+
+.taskOptions >*{
+    margin: 0 3px;
+    cursor: pointer;
+}
+
+.taskOptions>*:hover{
+    transform: scale(1.19);
+}
+
+.completedImg{
+    margin: 0 auto;
+    height: 65px;
+}
+
+.greyIt{
+    
+}
+
+.greyIt * {
+    color: rgba(128, 128, 128, 0.671) !important;
+}

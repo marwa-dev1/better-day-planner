@@ -1,0 +1,39 @@
+.container{
+  position: relative;
+  margin: 0 auto;
+  height: auto;
+  width: 100%;
+  background-color: white;
+  z-index: 50;
+}
+
+
+.main {
+    position: relative;
+    margin: 10% auto;
+    border: 6px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 6px solid #ff3503;
+    width: 120px;
+    height: 120px;
+    -webkit-animation: spin 0.68s linear infinite; /* Safari */
+    animation: spin 0.68s linear infinite;
+  }
+  
+  /* Safari */
+  @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+
+  @media (max-width: 761px){
+    .main{
+      margin: 40% auto;
+    }
+  }

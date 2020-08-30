@@ -1,0 +1,28 @@
+{
+  "name": "better-day",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "serve": "npm run build && firebase emulators:start --only hosting",
+    "deploy": "firebase deploy --only hosting"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.11.0",
+    "@react-firebase/database": "^0.3.11",
+    "date-fns": "^2.15.0",
+    "firebase": "^7.16.1",
+    "next": "9.4.4",
+    "react": "^16.13.1",
+    "react-datepicker": "^3.1.3",
+    "react-dom": "^16.13.1",
+    "react-icons": "^3.10.0",
+    "react-joyride": "^2.2.1",
+    "react-slide-toggle": "^0.3.5",
+    "react-spring": "^8.0.27",
+    "styled-components": "^5.1.1",
+    "uniqid": "^5.2.0"
+  }
+}

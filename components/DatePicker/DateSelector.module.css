@@ -1,0 +1,148 @@
+.main{
+    padding: 5px;
+    background-color: #dfdddd;
+    border-radius: 8px;
+}
+.innerMain { 
+    display: -webkit-box;
+display: -webkit-flex;
+display: -ms-flexbox;
+display: flex;
+    flex-direction: column;
+    padding: 5px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.innerMain > * {
+    flex-basis: 100%;
+}
+
+.innerMain h4{
+
+}
+
+.titleContainer{
+    display: -webkit-box;
+display: -webkit-flex;
+display: -ms-flexbox;
+display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px;
+    margin: -5px -5px 10px -5px;
+    height: 50px;
+    background-color: #dfdddd;
+}
+
+.titleContainer button{
+    padding: 2px !important;
+    height: 30px;
+}
+
+.arrowIcon{
+    cursor: pointer;
+    border: 1px solid #949494;
+    border-radius: 8px;
+    color: #404040;
+    padding: 2px;
+    background-color: white;
+}
+
+.datePickerContainer{
+    width: 100%;
+    display: -webkit-box;
+display: -webkit-flex;
+display: -ms-flexbox;
+display: flex;
+    justify-content: center;
+}
+
+.datePickerCustomInputContainer{
+    display: -webkit-box;
+display: -webkit-flex;
+display: -ms-flexbox;
+display: flex;
+    justify-content: center;
+    
+}
+
+.datePickerCustomInputContainer span{
+    flex-basis: 20%;
+}
+.datePickerCustomInputContainer input{
+    flex-basis: 100%;
+}
+/* .input{
+    width: 100% !important;
+} */
+.button{
+    width: 100%;
+}
+
+.btnsContainer{
+    display: -webkit-box;
+display: -webkit-flex;
+display: -ms-flexbox;
+display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 1.5vh 0;
+}
+
+.btnsContainer button:first-child{
+    flex-basis: 29%;
+    margin-right: 2%;
+}
+
+.btnsContainer button:last-child{
+    flex-basis: 29%;
+    margin-left: 2%;
+}
+
+
+.button {
+    border: none;
+    background: #404040;
+    color: #ffffff !important;
+    font-weight: 700;
+    font-size: 11px;
+    padding: 8px 4px;
+    text-transform: uppercase;
+    border-radius: 6px;
+    display: inline-block;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+}
+.button:hover {
+    color: #404040 !important;
+    font-weight: 700 !important;
+    /* letter-spacing: 3px; */
+    background: none;
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    transition: all 0.3s ease 0s;
+}
+.button:active {
+	position:relative;
+	top:1px;
+}
+
+        
+.input{
+    border-radius: 4px;
+    background-color: rgb(206, 206, 206);
+    padding: 6px 4px;
+    border: 0px;
+    font-size: 15px;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+}
+
+.input:hover{
+    background-color: white;
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    transition: all 0.3s ease 0s;
+}

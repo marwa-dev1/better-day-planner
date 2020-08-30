@@ -1,0 +1,52 @@
+.main{
+    padding: 5px;
+    background-color: #dfdddd;
+    border-radius: 8px;
+    margin: 20px 2vw 20px 0;
+}
+.innerMain { 
+    display: -webkit-box;
+display: -webkit-flex;
+display: -ms-flexbox;
+display: flex;
+    flex-direction: column;
+    padding: 5px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.titleContainer{
+    display: -webkit-box;
+display: -webkit-flex;
+display: -ms-flexbox;
+display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px;
+    margin: -5px -5px 10px -5px;
+    height: 50px;
+    background-color: #dfdddd;
+}
+
+.titleContainer button{
+    padding: 2px !important;
+    height: 30px;
+}
+
+.arrowIcon{
+    cursor: pointer;
+    border: 1px solid #949494;
+    border-radius: 8px;
+    color: #404040;
+    padding: 2px;
+    background-color: white;
+}
+
+.dairyText{
+    font-size: 13px;
+    font-weight: 100 !important;
+    font-style: italic;
+    color: grey;
+    line-height: 25px;
+}
